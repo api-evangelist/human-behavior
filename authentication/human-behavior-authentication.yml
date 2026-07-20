@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humanbehavior.co/docs/sdk
+docs: https://docs.humanbehavior.co/docs/sdk
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - client-sdk-init
+  oauth2_flows: []
+  notes: >-
+    Human Behavior authenticates via a project API key passed to the JavaScript
+    SDK at initialization: HumanBehaviorTracker.init('YOUR_API_KEY', options?).
+    The key identifies the project whose sessions and events are ingested. No
+    public REST API, OAuth flow, or documented server-side securityScheme was
+    found; auth is scoped to the client-side ingestion SDK.
+schemes:
+- name: projectApiKey
+  type: apiKey
+  in: sdk-init
+  parameter: apiKey
+  description: >-
+    Project API key provided to HumanBehaviorTracker.init(). Configurable
+    options include ingestionUrl, redactionStrategy, and redactFields.
+  sources:
+  - https://docs.humanbehavior.co/docs/sdk
