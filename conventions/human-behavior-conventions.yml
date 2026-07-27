@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.humanbehavior.co/docs/sdk
+docs: https://docs.humanbehavior.co/docs/setup
+summary: >-
+  Cross-cutting client integration semantics for the Human Behavior
+  session-recording SDK. This is a client-side ingestion product (rrweb-style
+  session replay), not a public REST API, so most server-side API conventions
+  (pagination, idempotency, error envelopes) do not apply.
+authentication:
+  style: apiKey
+  detail: >-
+    Project API key passed to HumanBehaviorTracker.init('YOUR_API_KEY').
+  ref: authentication/human-behavior-authentication.yml
+ingestion:
+  transport: browser-sdk
+  config_options:
+  - ingestionUrl
+  - redactionStrategy
+  - redactFields
+  detail: >-
+    The SDK streams captured session/event data to a configurable ingestion
+    endpoint. Redaction is supported via redactionStrategy and redactFields to
+    mask sensitive DOM content before transmission.
+alternatives:
+  posthog_ingestion: >-
+    Existing PostHog projects can be connected as a data source instead of, or
+    alongside, direct SDK installation.
+idempotency: null
+pagination: null
+error_envelope: null
+rate_limit_signaling: null
+notes: >-
+  No documented idempotency-key, pagination, or RFC 9457 problem-details
+  surface was found; the product exposes an SDK, not a queryable REST API, so
+  those conventions are not applicable rather than missing.

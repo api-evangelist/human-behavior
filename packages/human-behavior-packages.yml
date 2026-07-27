@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/humanbehavior-js
+packages:
+- language: javascript
+  registry: npm
+  name: humanbehavior-js
+  version: 0.7.0
+  url: https://www.npmjs.com/package/humanbehavior-js
+  repository: https://github.com/humanbehavior-gh/humanbehavior-js
+  install: npm install humanbehavior-js
+  license: ISC
+  description: SDK for HumanBehavior session and event recording
+  official: true
+  notes: >-
+    First-party browser/JavaScript session-recording SDK. Also installable via
+    yarn add humanbehavior-js, pnpm add humanbehavior-js, or the unpkg CDN
+    (https://unpkg.com/humanbehavior-js@latest). A no-code installer is available
+    via `npx humanbehavior-js YOUR_API_KEY`. Framework guides published for
+    React, Next.js, Vue, Svelte, Angular, Nuxt, Remix, Astro, Gatsby, Electron.
