@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Human Behavior is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Human Behavior Inc. is an AI-powered product analytics platform that uses autonomous agents to watch session replays, auto-instrument event tracking, map product workflows, and surface friction, bugs, and rage clicks without manual instrumentation. Developers integrate it with a first-party JavaScript session-recording SDK (humanbehavior-js) that initializes with an API key and streams events to the platform's ingestion endpoint, with framework guides for React, Next.js, Vue, Svelte, Angular, and more, plus optional PostHog ingestion. Backed by $5M from Y Combinator, Vercel, and General Catalyst.
 
-Backed by: general-catalyst
+**Areas:** Company · Analytics · Product Analytics · Session Replay · Artificial Intelligence · Developer Tools · SDK
+
+## Human Behavior on APIs.io
+
+Everything profiled for Human Behavior is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/human-behavior/](https://apis.io/providers/human-behavior/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [human-behavior](https://apis.io/servers/human-behavior/human-behavior/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Human Behavior Authentication](https://apis.io/security/human-behavior/human-behavior-authentication/)
+- [Human Behavior Domain Security](https://apis.io/security/human-behavior/human-behavior-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.humanbehavior.co)
+- [Documentation](https://docs.humanbehavior.co/docs/setup)
+- [Getting started](https://docs.humanbehavior.co/docs/setup)
+- [Pricing](https://www.humanbehavior.co/pricing)
+- [Sign up](https://www.humanbehavior.co/sign-in)
+- [Blog](https://www.humanbehavior.co/blog)
+- [GitHub](https://github.com/humanbehavior-gh)
+
+## API Evangelist rating
+
+**Kin Score 19.1** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 14.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/human-behavior/](https://apis.io/providers/human-behavior/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Human Behavior: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/human-behavior/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
